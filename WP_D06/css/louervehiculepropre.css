@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.entry-title {
+    font-weight: 700;
+    line-height: 1.4;
+    font-size: 1.625rem;
+    margin: 4rem 0rem;
+}
+
+body, button, input, select, textarea {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+.custom-button {
+    text-decoration: none;
+    line-height: 1.8;
+    font-size: 16px;
+    padding: 10px 25px;
+    text-align: center;
+    white-space: nowrap;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: 2px solid rgba(68,68,68,.19);
+    background-image: none;
+    user-select: none;
+    transition: background-color .2s ease-in-out,border-color .2s ease-in-out,color .2s ease-in-out;
+    color: #000000;
+    border-color: #000000;
+    background-color: #ffffff;
+    border-radius: 9999px;
+}
+
+.custom-button:hover {
+    color: #ffffff;
+    background-color: #00d757;
+    border-color: #00d757;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body>div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-bottom: 2rem;
+}
+
+body>div>img {
+    align-self: center;
+    margin-bottom: 2rem;
+}
+
+body>div>p {
+    margin-bottom: 2rem;
+    color: #2b2b2b;
+}
+
+
+.div-separator {
+    width: 100px;
+    opacity: 0,5;
+    border-bottom: 1px solid;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3rem;
+}
+
+footer {
+    background-color: #1b1b1b;
+    color: #ffffff;
+    padding: 2% 15%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer>div>h5, footer>div>p {
+    color: #a0a0a0;
+}
+
+.elementgauche{
+    width: 50%;
+}
+.elementgauche>h5{
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    font-size: 1rem;
+}
+.elementdroite{
+    width: 50%;
+    text-align: justify;
+}
+
+.elementdroite > div:first-child {
+    padding-bottom: 1.5rem;
+}
+
+.elementdroite>div>h3 {
+    padding-bottom: 1rem;
+}
+
+.footer-search-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+}
+
+.footer-input {
+    color: #eee;
+    width: 100%;
+    padding: 0 100px 0 10px;
+    height: 100%;
+    background: 0 0;
+    border: 2px solid #565555;
+    box-sizing: border-box;
+    border-radius: 0;
+    transition: .2s ease all;
+}
+
+.custom-footer-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    height: 100%;
+    padding: 1rem 2rem;
+    letter-spacing: 1px;
+    border: 2px solid rgba(68,68,68,.19);
+    color: #00d757;
+    background-color: #000000;
+    border-color: #00d757;
+}

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="icon" href="./picture/logo.png">
+        <title>Rechercher un trajet</title>
+
+        <link rel="stylesheet" href="./css/rechercheruntrajet.css" />
+        <link rel="stylesheet" href="./css/component.css">
+    </head>
+
+    <header>
+        <a href="./accueil.html"><h1>APPLE</h1></a>
+        <div class="menu-header">
+            <p><a href="./accueil.html">Accueil</a></p>
+            <p><a href="./proposeruntrajet.html">Proposer un trajet</a></p>
+            <p><a href="./rechercheruntrajet.html">Rechercher un trajet</a></p>
+            <p><a href="./louervehiculepropre.html">Louer un véhicule propre</a></p>        
+            <p><a href="./contact.html">Contact</a></p>
+        </div>
+        <img src="./picture/logo.png" alt="logo-menu">
+    </header>
+
+    <body>          
+            <h2>RECHERCHER UN TRAJET</h2>
+
+            <hr class="rechercher-separator2">
+
+
+            <div class="rechercher-barre-recherche">
+                <input type="search">
+                <button type="submit"> RECHERCHER </button>
+            </div>
+
+            <hr class="rechercher-separator">
+
+            <div class="rechercher-trajet-propose">
+                <div class="rechercher-trajet-gauche">
+                    <img src="./picture/avatar.jpeg" alt="avatar1">
+                    <p>Je vais de A à B. J’ai x places libres dans mon véhicule. Durée : M minutes. Tarif : P€. Venez avec le sourire 🙂
+                        
+                        Personne qui propose le trajet
+                    </p>
+                </div>
+                <div class="rechercher-trajet-droit">
+                    <img src="./picture/trajet.png" alt="trajet1">
+                </div>
+            </div>
+
+            <div class="rechercher-trajet-propose">
+                <div class="rechercher-trajet-gauche">
+                    <img src="./picture/avatar.jpeg" alt="avatar2">
+                    <p>Je vais de C à D. J’ai y places libres dans mon véhicule. Durée : M minutes. Tarif : P€. J’aime bien écouter de la musique pendant mon trajet.
+
+                        une autre personne qui propose un autre trajet
+                    </p>
+                </div>
+                <div class="rechercher-trajet-droit">
+                    <img src="./picture/trajet.png" alt="trajet2">
+                </div>
+            </div>
+
+            <div class="rechercher-trajet-propose">
+                <div class="rechercher-trajet-gauche">
+                    <img src="./picture/avatar.jpeg" alt="avatar3">
+                    <p>Je vais de E à F. J’ai z places libres dans mon véhicule. Durée : M minutes. Tarif : P€. La musique c’est bien mais la parlotte c’est mieux. Si tu veux monter prépare quelque chose à raconter.
+
+                        moi
+                    </p>
+                </div>
+                <div class="rechercher-trajet-droit">
+                    <img src="./picture/trajet.png" alt="trajet3">
+                </div>
+            </div>
+
+            <hr class="rechercher-separator">
+
+            <form class="rechercher-formulaire" action="./retourAccueil.html">
+                <div class="form-div">
+                    <label for="nom">Votre nom :</label>
+                    <input type="text" id="nom" name="nom">
+                </div>
+
+                <div class="form-div">
+                    <label for="email">Votre email :</label>
+                    <input type="text" id="email" name="email">
+                </div>
+
+                <div class="form-div">
+                    <label for="num-tel">Votre numéro de téléphone :</label>
+                    <input type="text" id="num-tel" name="num-tel">
+                </div>
+
+                <div class="form-div">
+                    <label for="trajet">Votre trajet :</label>
+                    <input type="text" id="trajet" name="trajet">
+                </div>
+
+                <div class="form-div">
+                    <label for="message">Informations sur le trajet : </label>
+                    <input type="text" id="message" name="message">
+                </div>
+
+                <input type="submit" name="form-envoyer" value="Envoyer">
+            </form> 
+    </body>
+
+    <footer>
+        <div class="elementgauche">
+            <h3>RETROUVEZ-NOUS</h3>
+    
+            <h5>Adresse</h5>
+            <p>114 Av. des Champs-Élysées, 75008 Paris</p>
+            
+            <h5>Heures d'ouverture</h5>
+            <p>Du lundi au samedi : 10h00—20h00</p>
+            <p>Le dimanche : 11h00–20h00</p>
+        </div>
+    
+        <div class="elementdroite">
+            <div>
+                <h3>À PROPOS DE CE SITE</h3>
+                <p>Lorem ipsum dolor sit amet. Est autem ipsum est perspiciatis obcaecati
+                    et cupiditate eligendi aut fugiat nemo. Et assumenda quis et earum vero
+                    cum internos officiis et praesentium eaque aut distinctio facilis.</p>
+            </div>
+            <div>
+                <h3>RECHERCHER</h3>
+                <div class="footer-search-input">
+                    <input class="footer-input" placeholder="Rechercher…" type="search" size="50">
+                    <button class="custom-footer-button">RECHERCHER</button>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</html>

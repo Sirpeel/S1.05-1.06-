@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="./picture/logo.png">
+    <title>Location</title>
+
+    <link rel="stylesheet" href="./css/location-stylesheet.css" />
+    <link rel="stylesheet" href="./css/component.css">
+</head>
+
+<header>
+    <a href="./accueil.html">
+        <h1>APPLE</h1>
+    </a>
+    <div class="menu-header">
+        <p><a href="./accueil.html">Accueil</a></p>
+        <p><a href="./proposeruntrajet.html">Proposer un trajet</a></p>
+        <p><a href="./rechercheruntrajet.html">Rechercher un trajet</a></p>
+        <p><a href="./louervehiculepropre.html">Louer un véhicule propre</a></p>
+        <p><a href="./contact.html">Contact</a></p>
+    </div>
+    <img src="./picture/logo.png" alt="logo-menu">
+</header>
+
+<body>
+    <div>
+        <h1 class="entry-title">LOUER</h1>
+
+        <hr class="separator">
+
+        <form class="custom-form" action="./retourAccueil.html">
+            <label for="fname">Prénom :</label>
+            <input type="text" id="fname" name="fname">
+
+            <label for="lname">Nom :</label>
+            <input type="text" id="lname" name="lname">
+
+            <label for="mail">Mail :</label>
+            <input type="text" id="mail" name="mail">
+
+            <label for="vehicule-select">Choisir un véhicule :</label>
+            <select name="vehicule-select" id="vehicule-select">
+                <option value="">Veuillez choisir un véhicule.</option>
+                <option value="voiture">Une voiture électrique, 300 kilomètres d'autonomie.</option>
+                <option value="velo">Un vélo électrique, 50 kilomètres d'autonomie.</option>
+                <option value="trotinette">Une trottinette électrique, 10 kilomètres d'autonomie.</option>
+            </select>
+
+            <label for="debut">Début de la location :</label>
+            <input type="date" id="debut" name="debut" value="2022-12-01" min="2022-12-01" max="2023-03-31"></input>
+
+            <label for="fin">Fin de la location :</label>
+            <input type="date" id="fin" name="fin" value="2022-12-01" min="2022-12-01" max="2023-03-31"></input>
+
+            <input class="custom-button" type="submit" value="ENVOYER">
+        </form>
+    </div>
+</body>
+
+<footer>
+    <div class="elementgauche">
+        <h3>RETROUVEZ-NOUS</h3>
+
+        <h5>Adresse</h5>
+        <p>114 Av. des Champs-Élysées, 75008 Paris</p>
+
+        <h5>Heures d'ouverture</h5>
+        <p>Du lundi au samedi : 10h00—20h00</p>
+        <p>Le dimanche : 11h00–20h00</p>
+    </div>
+
+    <div class="elementdroite">
+        <div>
+            <h3>À PROPOS DE CE SITE</h3>
+            <p>Lorem ipsum dolor sit amet. Est autem ipsum est perspiciatis obcaecati
+                et cupiditate eligendi aut fugiat nemo. Et assumenda quis et earum vero
+                cum internos officiis et praesentium eaque aut distinctio facilis.</p>
+        </div>
+        <div>
+            <h3>RECHERCHER</h3>
+            <div class="footer-search-input">
+                <input class="footer-input" placeholder="Rechercher…" type="search" size="50">
+                <button class="custom-footer-button">RECHERCHER</button>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</html>

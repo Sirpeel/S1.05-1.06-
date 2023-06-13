@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter' ,sans-serif;
+}
+
+body{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+    height: 61vh;
+    width: 100%;
+    
+}
+
+.container > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container::after{
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom,rgba(0,0,0,.1) 0,rgba(0,0,0,.5) 100%);
+}
+  
+.bottom-left {
+    position: absolute;
+    color: #fff;
+    left: 30%;
+    bottom: 10%;
+    font-size: 2.8125rem;
+    text-transform: none;
+    text-align: left;
+    z-index: 5;
+
+}
+
+.formulaire >h2::before{
+    content: "";
+    display: table;
+    table-layout: fixed;
+}
+body>div>h2{
+    font-style: normal;
+    
+    margin-top: 5rem;
+    margin-bottom:8rem;
+    line-height: 1.3;
+    padding-top: 0;
+    font-size: 2rem;
+    color: #444;
+    clear: both;
+    box-sizing: inherit;
+    word-wrap: break-word;
+
+}
+
+.formulaire{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 40%;
+    margin-bottom: 3rem;
+}
+
+.formulaire > form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.formulaire > form > div {
+    margin: 0.7rem 0;
+}
+
+body>div>form>div>label{
+    color: #444;
+}
+body>div>form>div>input{
+    font-size: 1rem;
+    line-height: 1.5;
+    padding: 1rem 0.5rem;
+    background: #fff;
+    border: 2px solid rgba(68,68,68,.19);
+    width: auto;
+    border-radius: 0;
+    color: #444;
+    margin: 0;
+    overflow: visible;
+    box-sizing: inherit;
+ 
+
+}
+body>div>form>div>input:focus-visible{
+    border-color: #00d757;
+}
+
+
+.bouton{
+    border-color: #00d757;
+    width: auto;
+    padding: 1rem 2rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 12px;
+    color: #444;
+    border: 2px solid rgba(68,68,68,.19);
+    background-color: #fff;
+
+}
+.bouton:hover{
+    color: #00d757;
+    background-color: #ffffff ;
+	border-color: #00d757 ;
+
+}
+

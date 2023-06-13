@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="./picture/logo.png">
+    <title>Proposer un trajet</title>
+
+    <link rel="stylesheet" href="./css/proposeruntrajet.css">
+    <link rel="stylesheet" href="./css/component.css">
+</head>
+
+<header>
+    <a href="./accueil.html"><h1>APPLE</h1></a>
+    <div class="menu-header">
+        <p><a href="./accueil.html">Accueil</a></p>
+        <p><a href="./proposeruntrajet.html">Proposer un trajet</a></p>
+        <p><a href="./rechercheruntrajet.html">Rechercher un trajet</a></p>
+        <p><a href="./louervehiculepropre.html">Louer un véhicule propre</a></p>        
+        <p><a href="./contact.html">Contact</a></p>
+    </div>
+    <img src="./picture/logo.png" alt="logo-menu">
+</header>
+
+<body>
+    <div class="container">  
+        <img src="picture/proposer.jpeg" >
+        <h1 class="bottom-left">Proposer un trajet</h1>
+    </div>
+
+    <div class="formulaire">
+        <h2>Nous nous inspirons des meilleurs, nous.</h2>
+        <form action="./retourAccueil.html">
+            <div class="nom">
+                <label for="nom">Votre nom:</label><br>
+                <input type="text" size="50" id="nom" name="nom"><br>
+            </div>
+            <div class="mail">
+                <label  for="e-mail">Votre e-mail:</label><br>
+                <input type="text" size="50" id="e-mail" name="e-mail"><br>
+            </div>
+            <div class="num">
+                <label  for="num">Votre numéro de téléphone:</label><br>
+                <input type="text" size="50" id="num" name="num"><br>
+            </div>
+            <div class="trajet">
+                <label  for="trajet">Votre trajet:</label><br>
+                <input type="text" size="50" id="trajet" name="trajet"><br><br>
+            </div>
+            <input class="bouton" type="submit" value="Envoyer">
+        </form>
+    </div>
+</body>
+
+<footer>
+    <div class="elementgauche">
+        <h3>RETROUVEZ-NOUS</h3>
+
+        <h5>Adresse</h5>
+        <p>114 Av. des Champs-Élysées, 75008 Paris</p>
+        
+        <h5>Heures d'ouverture</h5>
+        <p>Du lundi au samedi : 10h00—20h00</p>
+        <p>Le dimanche : 11h00–20h00</p>
+    </div>
+
+    <div class="elementdroite">
+        <div>
+            <h3>À PROPOS DE CE SITE</h3>
+            <p>Lorem ipsum dolor sit amet. Est autem ipsum est perspiciatis obcaecati
+                et cupiditate eligendi aut fugiat nemo. Et assumenda quis et earum vero
+                cum internos officiis et praesentium eaque aut distinctio facilis.</p>
+        </div>
+        <div>
+            <h3>RECHERCHER</h3>
+            <div class="footer-search-input">
+                <input class="footer-input" placeholder="Rechercher…" type="search" size="50">
+                <button class="custom-footer-button">RECHERCHER</button>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</html>

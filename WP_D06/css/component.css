@@ -1,0 +1,164 @@
+/* By Hugo Vallee, Eddy Vantard Grp: D */
+
+/* FONT */
+@font-face {
+    font-family: Inter;
+    src: url(./font/Inter/Inter-VariableFont_slnt\,wght.ttf);
+}
+ 
+@font-face {
+    font-family: Montserrat;
+    src: url(./font/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+
+/* HEADER */
+
+header {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    line-height: 1.8;
+
+    padding: 1.5rem;
+
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+    z-index:9999;
+}
+
+header > img {
+    width: 2.5rem;
+}
+
+header > a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-header > p {
+    margin: 1rem;
+}
+
+.menu-header > p > a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* FOOTER */
+
+footer {
+    font-family: 'Inter', sans-serif;
+    background-color: black;
+    color: #ffffff;
+    padding: 2% 15%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.elementgauche > p, .elementgauche > h5, .elementdroite > div > p, .elementdroite > div > h5 {
+    color: #a0a0a0;
+}
+
+.elementgauche{
+    width: 50%;
+}
+.elementgauche>h5{
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    font-size: 1rem;
+}
+.elementdroite{
+    width: 50%;
+    text-align: justify;
+}
+
+.elementdroite > div:first-child {
+    padding-bottom: 1.5rem;
+}
+
+.elementdroite>div>h3 {
+    padding-bottom: 1rem;
+}
+
+.footer-search-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+}
+
+.footer-input {
+    color: #eee;
+    width: 100%;
+    padding: 0 100px 0 10px;
+    height: 100%;
+    background: 0 0;
+    border: 2px solid #565555;
+    box-sizing: border-box;
+    border-radius: 0;
+    transition: .2s ease all;
+}
+
+.custom-footer-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    height: 100%;
+    padding: 1rem 2rem;
+    letter-spacing: 1px;
+    border: 2px solid rgba(68,68,68,.19);
+    color: #00d757;
+    background-color: #000000;
+    border-color: #00d757;
+}
+
+
+/* BUTTON */
+
+.custom-header-button ,.custom-header-button-black-radius {
+    text-decoration: none;
+    line-height: 1.8;
+    font-size: 16px;
+    padding: 10px 25px;
+    text-align: center;
+    white-space: nowrap;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: 2px solid rgba(68,68,68,.19);
+    background-image: none;
+    user-select: none;
+    transition: background-color .2s ease-in-out,border-color .2s ease-in-out,color .2s ease-in-out;
+    color: #ffffff;
+    border-color: #ffffff;
+    background: none;
+}
+
+.custom-header-button-black-radius {
+    color: #000;
+    border-color: #000;
+    border-radius: 9999px;
+}
+
+.custom-header-button:hover ,.custom-header-button-black-radius:hover {
+    color: #ffffff;
+    background-color: #00d757;
+    border-color: #00d757;
+}

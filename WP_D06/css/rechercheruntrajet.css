@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Inter,sans-serif;
+}
+
+body > h2 {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.rechercher-barre-recherche{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 2.5em;
+
+}
+
+.rechercher-barre-recherche>input{
+  border: 2px solid #565555;
+  width : 100%;
+  height: 100%;
+}
+
+.rechercher-barre-recherche>button{
+  background: 0 0;
+  border: 2px solid #565555;
+  height: 100%;
+  font-size: inherit;
+  font-family: inherit;
+  line-height: inherit;
+  width: auto;
+  text-align: center;  
+  letter-spacing: 1px;
+  padding: 0rem 0.5rem;
+}
+
+.rechercher-barre-recherche>button:hover{
+    cursor: pointer;
+    text-decoration: none;
+    color: #0bb4aa;
+}
+
+
+.rechercher-trajet-propose{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin: 2rem;
+}
+
+.rechercher-trajet-droit {
+    width: 30%;
+}
+
+.rechercher-trajet-gauche{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.rechercher-trajet-gauche>img{
+    width: 15%;
+    margin: 8%;
+}
+
+.rechercher-formulaire{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 50%;
+    margin-bottom: 3rem;
+}
+
+.rechercher-formulaire > *{
+    margin: 1rem;
+}
+
+.form-div {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%; 
+}
+
+
+
+input{
+  font-size: 16px;
+  line-height: 1.8;
+  padding: 11px 10px;
+  background: #fff;
+  border: 2px solid rgba(68,68,68,.19);
+  width: 80%;
+  color: #444;
+  font-weight: 400;
+  background-repeat: no-repeat;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: visible;
+  font-family: inherit;
+}
+
+.rechercher-formulaire>div>label{
+    margin-bottom: 1%;
+}
+
+.rechercher-formulaire>input:hover{
+    color: #00d757;
+    border-color: #00d757;
+}
+
+.rechercher-formulaire>input{
+    font-family: Montserrat,sans-serif;
+    display: inline;
+    width: auto;
+    padding: 12px 25px;
+    text-align: center;
+    white-space: nowrap;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 12px;
+    color: #444;
+    border: 2px solid rgba(68,68,68,.19);
+    background-image: none;
+    transition: color .2s ease,border-color .2s ease,background-color .2s ease;
+}
+
+
+.rechercher-separator{
+    background-color: #eee;
+    border: 0;
+    height: 1px;
+    width: 10%;
+    align-self: center;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 2px solid;
+
+}
+
+
+.rechercher-separator2{
+    background-color: #eee;
+    opacity: 0.2;
+    border: 0;
+    height: 1px;
+    width: 10%;
+    align-self: center;
+    margin-top: 3em;
+    margin-bottom: 6em;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 2px solid;
+}
